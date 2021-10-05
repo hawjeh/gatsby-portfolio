@@ -1,9 +1,13 @@
 ---
 category: 'education'
-university: 'Stanford University'
-degree: 'Master of Science'
-startDate: 'Oct 2008'
-endDate: 'Jul 2010'
+university: 'Asia Pacific University of Technology and Innovation (APU / APIIT)'
+degree: 'Bachelor of Science'
+startDate: '2011'
+endDate: '2014'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborist.
+<b>Bachelor of Science in Software Engineering - First Class Honour</b> <br/>
+2012-2014   Student Ambassador & Senior Student Ambassador <br/>
+2012-2013	Committee Member of APU Chinese Culture Week <br/>
+2011-2012	Committee Member of APU Math & Science Club <br/>
+2011-2012	Student Helpers in APU

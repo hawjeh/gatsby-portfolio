@@ -1,8 +1,12 @@
 ---
 category: 'hero section'
-title: 'Frontend Developer'
-subtitle: 'I am the Great Gatsby'
-content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+title: 'Full Stack Developer'
+subtitle: 'Keep Coding, Keep Fighting'
+content: 'I am a responsible and detail oriented engineer with get-it-done, on-time and high-quality spirit. 
+<br/>
+Throughout my career, I have been involved in defining requirements, designing, implementing, testing and deliver web solutions using variety stack of technologies. 
+<br/>
+I have found that nothing drive my passion and satisfy me more than developing new solutions, solving problems and contributing to overall growth of a business.'
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---

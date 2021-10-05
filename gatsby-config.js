@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby.JS`,
-    description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-    author: `Saimir Kapaj`
+    title: `Haw Jeh`,
+    description: `Haw Jeh Portfolio Website`,
+    author: `Haw Jeh`
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -43,10 +43,10 @@ module.exports = {
         name: `gatsby-personal-website-starter`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#ed64a6`,
-        theme_color: `#ed64a6`,
+        background_color: `#442d7c`,
+        theme_color: `#442d7c`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`
+        icon: `src/assets/images/icon.jpg`
       }
     },
     `gatsby-plugin-offline`,

@@ -7,7 +7,7 @@ export const InfoBlock = styled.div`
 `;
 
 export const Icon = styled.span`
-  ${tw`flex items-center justify-center w-10 h-10 border border-pink-500 rounded-full mb-2`};
+  ${tw`flex items-center justify-center w-10 h-10 border border-purple-500 rounded-full mb-2`};
 `;
 
 export const Wrapper = styled.div`

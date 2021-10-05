@@ -24,14 +24,18 @@ const Newsletter = () => {
 
   const newsletter = markdownRemark.frontmatter;
 
+  const onSubmitClick = () => {
+    window.location = "mailto:hawjeh@gmail.com?subject=Get In Touch&body=Hello I am <john>, nice to meet you!";
+  }
+
   return (
     <Styled.Newsletter>
       <Container section>
         <TitleSection title={newsletter.title} subtitle={newsletter.subtitle} center />
         <Styled.Form>
-          <Styled.Input type="text" placeholder={newsletter.namePlaceholder} />
-          <Styled.Input type="email" placeholder={newsletter.emailPlaceholder} />
-          <Button primary block>
+          {/* <Styled.Input type="text" placeholder={newsletter.namePlaceholder} />
+          <Styled.Input type="email" placeholder={newsletter.emailPlaceholder} /> */}
+          <Button primary onSubmitClick={onSubmitClick}>
             {newsletter.submitPlaceholder}
           </Button>
         </Styled.Form>

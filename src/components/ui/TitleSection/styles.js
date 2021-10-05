@@ -11,7 +11,7 @@ export const Title = styled.h2`
 `;
 
 export const SubTitle = styled.h4`
-  ${tw`text-xs text-pink-500 w-full text-left`};
+  ${tw`text-xs text-purple-500 w-full text-left`};
   ${({ center }) => center && tw`text-center`};
 `;
 
@@ -26,6 +26,6 @@ export const Separator = styled.h2`
 
   &:after {
     content: '';
-    ${tw`bg-pink-500 h-6 w-px absolute ml-1`};
+    ${tw`bg-purple-500 h-6 w-px absolute ml-1`};
   }
 `;
