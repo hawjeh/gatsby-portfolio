@@ -18,7 +18,7 @@ export const Content = styled.div`
 `;
 
 export const Image = styled.figure`
-  ${tw`w-full`};
+  ${tw`w-full`}; height: 300px;
 `;
 
 export const Title = styled.h3`

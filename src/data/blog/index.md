@@ -1,5 +1,5 @@
 ---
 category: 'blog section'
-title: 'Blog'
-subtitle: 'All my posts'
+title: 'Blog Posts'
+subtitle: 'Gain Knowledge by Sharing Findings'
 ---
