@@ -11,7 +11,7 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import * as Styled from './styles';
 
-const BlogPost = ({ data, pageContext }) => {
+const BlogPost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const { previous, next } = pageContext;
   const postFields =  pageContext.post.node.frontmatter;
@@ -23,7 +23,7 @@ const BlogPost = ({ data, pageContext }) => {
       <Container section>
         <TitleSection title={post.frontmatter.date} subtitle={post.frontmatter.title} />
         <FormatHtml content={post.html} />
-        <ShareTool title={shareTitle} description={postFields.description} url={window.location.href} />
+        <ShareTool title={shareTitle} description={postFields.description} url={location.href} />
         <Styled.Links>
           <span>
             {previous && (
