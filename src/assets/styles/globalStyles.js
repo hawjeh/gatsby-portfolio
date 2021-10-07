@@ -21,16 +21,18 @@ export default createGlobalStyle`
       margin-bottom: 1.5rem;
     }
     h1 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
     h2 {
-      font-size: 1.5em;
+      font-size: 1.25em;
     }
     h3 {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
     }
     p {
+      font-size: .9rem;
       line-height: 1.5rem;
+      padding-top: 1rem;
     }
     blockquote {
       margin-top: 1rem;
@@ -39,13 +41,22 @@ export default createGlobalStyle`
       margin-left: 0px;
       border-left: 0.15rem solid;
     }
-    ol,ul{
+    ol {
       list-style: auto;
+    }
+    ul {
+      list-style: inherit;
+    }
+    ol,ul {
+      font-size: .9rem;
       margin: 1rem auto;
       padding-inline-start: 40px;
     }
+    ol li, ul li {
+      margin-top: .8rem;
+    }
     code { 
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       border: 1px solid #ddd;
       border-radius: 4px;
       padding: .8em 1em;

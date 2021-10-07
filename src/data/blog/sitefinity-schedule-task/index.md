@@ -36,9 +36,66 @@ There are two important method,
 ![code2](./code2.png)
 
 Then we rewrite the code:
+<br><br>
+```
+#SampleTask.cs
+ 
+public class SampleTask : ScheduledTask
+{
+    public SampleTask() { this.Key = "MyKey"; }
+    public override string TaskName { get { return this.GetType().FullName; } }
+ 
+    public override void ExecuteTask()
+    {
+        // Code to Execute Task
+        ScheduleTask();
+    }
+ 
+    public static void ScheduleTask()
+    {
+        SchedulingManager schedulingManager = SchedulingManager.GetManager();
+ 
+        var executeTime = DateTime.Now.AddMinutes(5);
+        var existingTask = schedulingManager.GetTaskData().FirstOrDefault(x => x.Key == this.Key);
+ 
+        if (existingTask == null)
+        {
+            // Create a new scheduled task
+            SampleTask newTask = new SampleTask()
+            {
+                ExecuteTime = executeTime
+            };
+ 
+            schedulingManager.AddTask(newTask);
+        }
+ 
+        else
+        {
+            existingTask.ExecuteTime = executeTime;
+        }
+ 
+        SchedulingManager.RescheduleNextRun();
+        schedulingManager.SaveChanges();
+    }
+}
+```
 
-![code3](./code3.png)
-![code4](./code4.png)
+<br><br>
+
+```
+#Global.asax.cs
+ 
+protected void Application_Start(object sender, EventArgs e)
+{
+    Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
+}
+ 
+private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
+{
+    HousekeepingTask.ScheduleTask(init: true, rescheduleNewTask: false);
+    InterfaceTask.ScheduleTask(init: true, rescheduleNewTask: false);
+}
+```
 
 ## Schedule Task Table
 
