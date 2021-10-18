@@ -5,7 +5,7 @@ import SEO from 'components/SEO';
 import HeroBanner from 'components/HeroBanner';
 import Services from 'components/Services';
 
-const IndexPage: React.FC = () => {
+const AboutPage: React.FC = () => {
   return (
     <Layout>
       <SEO title="About Me" />
@@ -16,4 +16,4 @@ const IndexPage: React.FC = () => {
   );
 };
 
-export default IndexPage;
+export default AboutPage;

@@ -16,10 +16,10 @@ const BlogPost = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext;
   const postFields =  pageContext.post.node.frontmatter;
   const shareTitle = `Haw Jeh | ${post.frontmatter.title}`
-
+  
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={postFields.description} keywords={postFields.tags.join(', ')} />
+      <SEO title={post.frontmatter.title} description={postFields.description} keywords={postFields.tags.join(', ')} image={post.frontmatter.cover.childImageSharp.fluid.src} />
       <Container section>
         <TitleSection title={post.frontmatter.date} subtitle={post.frontmatter.title} />
         <FormatHtml content={post.html} />
@@ -54,6 +54,13 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMM DD, YYYY")
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
