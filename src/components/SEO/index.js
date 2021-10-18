@@ -28,7 +28,7 @@ const SEO = ({ description, keywords, image, lang, meta, title }) => {
   const metaKeywords = keywords || '';
   description = description ? description + ' | Haw Jeh' : description;
   const metaDescription = description || site.siteMetadata.description;
-  const metaImage = image ? `${window.location.origin}${image}` : `${window.location.origin}${profileImage.childImageSharp.fluid.src}`;
+  const metaImage = image ? `${image}` : `${profileImage.childImageSharp.fluid.src}`;
 
   return (
     <Helmet
@@ -60,7 +60,7 @@ const SEO = ({ description, keywords, image, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `${metaImage}`
+          content: `${window.location.origin}${metaImage}`
         },
         {
           name: `twitter:card`,
