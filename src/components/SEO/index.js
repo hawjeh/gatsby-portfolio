@@ -60,7 +60,7 @@ const SEO = ({ description, keywords, image, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `${metaImage}`
+          content: `https://hawjeh.com/${metaImage}`
         },
         {
           name: `twitter:card`,
