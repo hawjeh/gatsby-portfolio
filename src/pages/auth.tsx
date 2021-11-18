@@ -9,8 +9,7 @@ import TitleSection from 'components/ui/TitleSection';
 const ContactPage: React.FC = ({ location }) => {
 
   const search = location.search.substring(1);
-  const value = JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g, '":"') + '"}', function (key, value) { return key === "" ? value : decodeURIComponent(value) });
-  const [callbackValue] = useState(value);
+  const [callbackValue] = useState(JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g, '":"') + '"}', function (key, value) { return key === "" ? value : decodeURIComponent(value) }));
 
   return (
     <Layout>
