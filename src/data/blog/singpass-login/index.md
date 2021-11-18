@@ -137,6 +137,17 @@ Response / Verify Screen
 
 <br>
 
+## Add on feature
+
+- How it works? Scenario below:
+
+    - I want to login using singpass
+    - Redirect to <provider>/login?callback=<origin_end_point>
+    - Scan QR code and authenticate my user
+    - Provider response to origin end point with payload
+
+- Demo: Check Demo Video
+
 ## Enhancements
 
 - Build a proper login flow
