@@ -1,11 +1,11 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import InfoBlock from 'components/ui/InfoBlock';
+// import InfoBlock from 'components/ui/InfoBlock';
 import Container from 'components/ui/Container';
 import TitleSection from 'components/ui/TitleSection';
 
-import * as Styled from './styles';
+// import * as Styled from './styles';
 
 const ConctactInfo = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
@@ -32,12 +32,13 @@ const ConctactInfo = () => {
   `);
 
   const sectionTitle = markdownRemark.frontmatter;
-  const contacts = allMarkdownRemark.edges;
+  // const contacts = allMarkdownRemark.edges;
 
   return (
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} center />
-      {contacts.map((item) => {
+      <div style={{ width: '100%' }}><p class="text-center">Nothing Special</p></div>
+      {/* {contacts.map((item) => {
         const {
           id,
           frontmatter: { title, icon, content }
@@ -48,7 +49,7 @@ const ConctactInfo = () => {
             <InfoBlock icon={icon} title={title} content={content} center />
           </Styled.ContactInfoItem>
         );
-      })}
+      })} */}
     </Container>
   );
 };
