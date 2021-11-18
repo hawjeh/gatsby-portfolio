@@ -32,7 +32,6 @@ export default createGlobalStyle`
     p {
       font-size: .9rem;
       line-height: 1.5rem;
-      padding-top: 1rem;
     }
     blockquote {
       margin-top: 1rem;
