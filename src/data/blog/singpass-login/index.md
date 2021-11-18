@@ -160,3 +160,7 @@ Response / Verify Screen
 ## Repository
 
 - https://github.com/hawjeh/SingPassConnector (Private repo)
+
+## Demo Video
+
+- https://drive.google.com/file/d/1hCNnev4rIIiO3xuG-8MCYNXQJE8hhizK/view?usp=sharing 
