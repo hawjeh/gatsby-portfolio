@@ -142,19 +142,27 @@ Response / Verify Screen
 - How it works? Scenario below:
 
     - I want to login using singpass
-    - Redirect to <provider>/login?callback=<origin_end_point>
+    - Redirect to <provider>/login?callback=<origin_end_point>&nonce=<nonce>
     - Scan QR code and authenticate my user
-    - Provider response to origin end point with payload
+    - Provider response to origin end point with base64 endcoded payload + nonce
+    - Origin endpoint should verify the nonce be matched with request
 
 - Demo: Check Demo Video
 
-## Enhancements
+- Demo in App
 
-- Build a proper login flow
+	- Repository: https://github.com/hawjeh/SitefinityWidgetCollection
+    - Setup widget with login role, service and callback url
+    - A nonce cookie generated on load - expired in 20 mins
+    - Click login button request to service url with callback url & nonce (Format: `https://<service_url>?callback=<callback_url>&nonce=<nonce>`)
+    - Authentication at service site
+    - Callback from service site (Format: `https://<domain>/<callback_path>?s=<encoded_sid>&u=<encoded_uid>&nonce=<nonce>`)
+    - Verify callback nonce with cookie value
+    - Create user if not exists; login user if exists
 
-    - Login with Singpass → retrieve U id and IC → response encrypted jwt with encoded content
+## Futher Enhancements
 
-- Use the return payload (sub) to retrieve my-info
+- Integrate with myInfo service
 
 <br>
 
