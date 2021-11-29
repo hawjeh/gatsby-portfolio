@@ -1336,10 +1336,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@hawjeh/js-to-excel@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@hawjeh/js-to-excel/-/js-to-excel-1.0.7.tgz#fd0a5c7276561356488bd81f55050e7dc0fe5a27"
-  integrity sha512-Xx4n0IMaGV10b4gVOmTqWVPrs6q3MNDqVBi8GQqEvoxhrV9Xs3MvgXyxWVAtbYMDwdl0zyvh3pVjejoJsVZDIg==
+"@hawjeh/js-to-excel@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@hawjeh/js-to-excel/-/js-to-excel-1.0.9.tgz#5085c35286827634733bdda75a47b5390bde4c6f"
+  integrity sha512-hTs3gsbDFNk0BtLxlnwhkbYGvOyrWEBroRqViYKYc/4wHEGCVffXfRd16ipcvZsQ7cBTogddMYAVGwoMsaWtcw==
   dependencies:
     cross-blob "^3.0.0"
     exceljs "^4.3.0"

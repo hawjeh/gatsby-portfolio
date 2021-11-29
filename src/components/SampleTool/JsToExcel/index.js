@@ -6,8 +6,7 @@ import TitleSection from 'components/ui/TitleSection';
 
 import * as Styled from './styles';
 
-import "@hawjeh/js-to-excel";
-const { exportHtmlToExcel } = window.JsToExcel;
+import { exportHtmlToExcel } from "@hawjeh/js-to-excel";
 
 const JsToExcel = () => {
 
