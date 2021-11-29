@@ -159,6 +159,7 @@ Response / Verify Screen
     - Callback from service site (Format: `https://<domain>/<callback_path>?s=<encoded_sid>&u=<encoded_uid>&nonce=<nonce>`)
     - Verify callback nonce with cookie value
     - Create user if not exists; login user if exists
+    - Furthermore, check the demo video for app integration
 
 ## Futher Enhancements
 
@@ -182,4 +183,5 @@ Response / Verify Screen
 
 ## Demo Video
 
-- https://drive.google.com/file/d/1hCNnev4rIIiO3xuG-8MCYNXQJE8hhizK/view?usp=sharing 
+- https://drive.google.com/file/d/1hCNnev4rIIiO3xuG-8MCYNXQJE8hhizK/view?usp=sharing
+- App Integration: https://drive.google.com/file/d/1eqRW_D766GZLZgx6kzVbNtOW3J5CrP-T/view

@@ -10,6 +10,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@hawjeh/js-to-excel": "^1.0.7",
     "@loadable/component": "^5.12.0",
     "@types/loadable__component": "^5.10.0",
     "babel-plugin-styled-components": "^1.10.7",
