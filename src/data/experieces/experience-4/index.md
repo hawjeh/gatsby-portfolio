@@ -2,6 +2,7 @@
 category: 'experiences'
 company: 'Websparks Pte Ltd'
 position: '.NET Team Lead'
+sequence: 4
 startDate: 'Apr 2018'
 endDate: 'Prsent'
 ---

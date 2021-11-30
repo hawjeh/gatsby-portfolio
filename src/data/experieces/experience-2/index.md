@@ -2,6 +2,7 @@
 category: 'experiences'
 company: 'Interactive Intelligence Inc.'
 position: 'Application Developer, PSO Application Development'
+sequence: 2
 startDate: 'Jan 2015'
 endDate: 'May 2016'
 ---

@@ -16,7 +16,7 @@ const Skills = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "skills" } } }, sort: { fields: frontmatter___cover___absolutePath }) {
+      allMarkdownRemark(filter: { frontmatter: { category: { eq: "skills" } } }, sort: { order: DESC, fields: frontmatter___percentage }) {
         edges {
           node {
             id

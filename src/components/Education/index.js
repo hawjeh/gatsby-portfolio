@@ -17,7 +17,7 @@ const Education = () => {
       }
       allMarkdownRemark(
         filter: { frontmatter: { category: { eq: "education" } } }
-        sort: { order: DESC, fields: frontmatter___cover___absolutePath }
+        sort: { order: DESC, fields: frontmatter___sequence }
       ) {
         edges {
           node {
@@ -28,6 +28,7 @@ const Education = () => {
               degree
               startDate
               endDate
+              sequence
             }
           }
         }

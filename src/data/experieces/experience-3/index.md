@@ -2,6 +2,7 @@
 category: 'experiences'
 company: 'First HR Pte Ltd'
 position: 'Software Developer Consultant'
+sequence: 3
 startDate: 'May 2016'
 endDate: 'Mar 2018'
 ---

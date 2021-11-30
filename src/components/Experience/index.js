@@ -17,7 +17,7 @@ const Experience = () => {
       }
       allMarkdownRemark(
         filter: { frontmatter: { category: { eq: "experiences" } } }
-        sort: { order: DESC, fields: frontmatter___cover___absolutePath }
+        sort: { order: DESC, fields: frontmatter___sequence }
       ) {
         edges {
           node {
@@ -28,6 +28,7 @@ const Experience = () => {
               position
               startDate
               endDate
+              sequence
             }
           }
         }

@@ -2,6 +2,7 @@
 category: 'experiences'
 company: 'Asia Pacific University of Technology and Innovation (APU / APIIT)'
 position: 'Senior Student Ambassador'
+sequence: 1
 startDate: 'Jan 2013'
 endDate: 'Dec 2014'
 ---

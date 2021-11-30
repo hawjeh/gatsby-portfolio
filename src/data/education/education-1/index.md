@@ -2,6 +2,7 @@
 category: 'education'
 university: 'SMJK YUHUA Kajang'
 degree: 'SPM, Science Stream'
+sequence: 1
 startDate: '2016'
 endDate: '2010'
 ---

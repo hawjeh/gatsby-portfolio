@@ -2,6 +2,7 @@
 category: 'education'
 university: 'Asia Pacific University of Technology and Innovation (APU / APIIT)'
 degree: 'Bachelor of Science'
+sequence: 2
 startDate: '2011'
 endDate: '2014'
 ---
