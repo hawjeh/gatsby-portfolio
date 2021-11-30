@@ -59,6 +59,20 @@ module.exports = {
         tailwind: true,
         purgeOnly: [`src/assets/styles/global.css`]
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-213829061-1",
+        head: true
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "G-90C7QNST93",
+        defaultDataLayer: { platform: "gatsby" }
+      },
+    },
   ]
 };
