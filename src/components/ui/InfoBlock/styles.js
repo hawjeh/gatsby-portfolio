@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import tw from 'tailwind.macro';
+import tw from "twin.macro"
 
 export const InfoBlock = styled.div`
   ${tw`flex flex-col my-4 mx-3 p-4 bg-white rounded-lg border border-gray-300`};
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h3`
-  ${tw`text-md mt-1 font-semibold`};
+  ${tw`text-lg mt-1 font-semibold`};
 `;
 
 export const Content = styled.p`

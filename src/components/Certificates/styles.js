@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import tw from 'tailwind.macro';
+import tw from "twin.macro"
 
 export const Certificates = styled.div`
   ${tw`flex flex-wrap -mx-3`};

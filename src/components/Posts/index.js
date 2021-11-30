@@ -65,7 +65,7 @@ const Posts = () => {
           return (
             <Styled.Post key={id}>
               <Link to={slug}>
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
+                <motion.div whileHover={{ scale: 1.05 }}>
                   <Styled.Card>
                     <Styled.Image>
                       <Img fluid={cover.childImageSharp.fluid} alt={title} style={{height: '300px'}} />

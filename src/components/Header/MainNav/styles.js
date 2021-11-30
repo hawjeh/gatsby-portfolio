@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import tw from 'tailwind.macro';
+import tw from "twin.macro"
 import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 
@@ -51,7 +51,7 @@ export const ToogleMainNav = styled.button`
     &:nth-child(2) {
       ${tw`bg-purple-500 inline-block w-8 h-px`};
 
-      ${({ open }) => (open ? tw`opacity-0` : tw`opacity-1`)};
+      ${({ open }) => (open ? tw`opacity-0` : tw`opacity-10`)};
       transform: ${({ open }) => (open ? 'translate(20px)' : 'none')};
     }
   }

@@ -19,7 +19,7 @@ const Showcases = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "showcases" } } }, sort: { fields: fileAbsolutePath }) {
+      allMarkdownRemark(filter: { frontmatter: { category: { eq: "showcases" } } }, sort: { fields: frontmatter___cover___absolutePath }) {
         edges {
           node {
             id

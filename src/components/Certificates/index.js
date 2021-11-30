@@ -16,7 +16,7 @@ const Certificates = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "certificates" } } }, sort: { fields: fileAbsolutePath }) {
+      allMarkdownRemark(filter: { frontmatter: { category: { eq: "certificates" } } }, sort: { fields: frontmatter___cover___absolutePath }) {
         edges {
           node {
             id
