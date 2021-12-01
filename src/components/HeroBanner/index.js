@@ -13,6 +13,8 @@ const HeroBanner = () => {
           content
           linkTo
           linkText
+          link2To
+          link2Text
         }
       }
     }
@@ -27,6 +29,8 @@ const HeroBanner = () => {
       content={heroBanner.content}
       linkTo={heroBanner.linkTo}
       linkText={heroBanner.linkText}
+      link2To={heroBanner.link2To}
+      link2Text={heroBanner.link2Text}
     />
   );
 };

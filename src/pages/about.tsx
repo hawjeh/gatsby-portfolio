@@ -8,7 +8,7 @@ import Services from 'components/Services';
 const AboutPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="About Me" />
+      <SEO title="About" />
       <HeroBanner />
       <Services />
       <hr />
