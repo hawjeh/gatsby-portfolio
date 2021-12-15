@@ -1,6 +1,7 @@
 ---
 category: 'certificates'
-title: 'Microsoft Certified: Azure Fundamentals'
+title: 'Agile Software Development'
 icon: ''
-description: '<p>Microsoft<br/>Issued Aug 2020<br/>Credential ID: H491-1296</p><a href="https://www.youracclaim.com/badges/dda01ef3-571a-4707-89f9-48f5065f74c4?source=linked_in_profile">See credential</a>'
+description: '<p>Coursera<br/>Issued Sep 2021<br/>Credential ID: LB55LMCS9MU6</p><a href="https://www.coursera.org/account/accomplishments/certificate/LB55LMCS9MU6">See credential</a>'
+sequence: 3
 ---
