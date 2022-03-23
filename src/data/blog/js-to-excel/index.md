@@ -2,7 +2,7 @@
 category: 'blog'
 cover: './npm_icon.png'
 title: 'NPM Package - JS to Excel'
-description: 'NPM Package - HTML / JSON to Excel table'
+description: 'NPM Package - Self Package HTML / JSON to Excel table'
 date: '2021-11-20'
 tags: ['Javascript', 'NodeJS', 'NPM', 'Excel']
 published: true

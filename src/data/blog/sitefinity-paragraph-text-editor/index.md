@@ -2,7 +2,7 @@
 category: 'blog'
 cover: './sitefinity-logo.jpg'
 title: 'Sitefinity WebForm Text Editor'
-description: 'Sitefinity – Web Form Text editor settings'
+description: 'Sitefinity – Simple Classic Web Form Text Editor Setting'
 date: '2021-12-20'
 tags: ['.NET', 'CMS', 'Sitefinity']
 published: true
